@@ -1,0 +1,83 @@
+#container_bmi
+{
+  width:90%;height:auto;
+margin-left:auto;
+margin-right:auto;
+}
+#what_weight
+{
+  text-align:left;
+  min-width:7rem;
+  width:100%;
+  height:auto;
+  font-size:1.3rem!important;
+  padding:4%;
+  margin:0%;
+  border:0px;
+  border-bottom:0.2rem solid black;
+  background-color: transparent;
+}
+#what_height
+{
+  text-align:left;
+  min-width: 7rem;
+   width:100%;
+  height:auto;
+  font-size:1.3rem!important;
+  padding:4%;
+  margin:0%;
+  border:0px;
+  border-bottom:0.2rem solid black;
+  background-color: transparent;
+}
+
+#bmi
+{
+  
+  font-size:2rem;
+  font-weight:bold;
+  width:100%;
+  margin:0px;
+    text-align: center;
+  
+}
+#compute
+{  
+  font-size:2rem;
+     padding: 1% 5% 1%;
+  width:auto;
+  height:10%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#00BFF0;
+  margin: 4% 0% 2%;
+  border:0px;
+  border-radius:3%;
+  cursor:pointer;
+}
+.row-bmi
+{
+  /*padding: 1% 10% 1% 10%;*/
+  text-align:left;
+  margin:0px;
+}
+.computed
+{
+  font-size:1.8rem;
+  font-family:'Ubuntu',sans-serif;
+  font-weight:bold;
+  text-align:center;
+  width:100%;
+  padding:0px;
+  margin:0px;
+  /*border: 1px solid red;*/
+}
+td.container_block
+{
+  border:20px;padding: 1% 5%;
+  width:26%;
+}
+#bmi_text
+{
+  font-size:1rem;
+}

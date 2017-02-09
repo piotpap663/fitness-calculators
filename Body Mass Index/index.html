@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>BMI BODY MASS INDEX</title>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body style="width:100%;"onload=check() >
+<div style="text-align:center;margin:2%;">
+<div id="container_bmi">
+<table style="width:100%;padding:0px;border:0px;" >
+    <tr>
+    <th colspan="2" style="text-align:center;">BMI</th>
+    </tr>  
+    <tr style="height: 20%;">
+	<td class="container_block"><input type="text" id="what_weight" placeholder="Weight [kg]"/>
+      </td> 
+      <td id="bmi_text" rowspan="2" class="row-bmi">The body mass index (BMI) or Quetelet index is a value derived from the mass (weight) and height of an individual. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.</br></br>
+  <ul><b>BMI Categories: </b>
+	<li>Underweight = <18.5</li>
+	<li>Normal weight = 18.5 - 24.9 </li>
+	<li>Overweight = 25 - 29.9 </li>
+	<li>Obesity = BMI of 30 or greater</li>
+ </ul>
+ 
+	</td>
+    </tr>
+    <tr>
+       <td class="container_block"><input type="text" id="what_height" placeholder="Height [cm]"/>
+      </td>
+    </tr>
+	    <tr>
+    <th colspan="2" style="text-align:center;"><div class="computed"><input type="submit" value="Compute" id="compute" onclick="compute()"</th>
+	</div>
+    </tr>  
+		
+</table>
+
+
+  <div id="bmi">
+    </div>
+  </div>
+
+	  </div>
+</html>
+</body>
